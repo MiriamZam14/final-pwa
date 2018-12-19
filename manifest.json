@@ -1,0 +1,64 @@
+{
+  "name":"Prueba PWA-ISIC",
+  "short_name": "PWA-ISIC",
+  "description":"Aplicacion de PWA creada por los Chiquipelucas",
+  "background_color":"#FFF",
+  "theme_color": "#599E84",
+  "orientation":"portrait",
+  "display":"standalone",
+  "start_url":"./index.html?utm_source=web_app_manifest",
+  "scope":"./",
+  "lang":"es-MX",
+  "icons":[
+    {
+      "src":"./img/tecISC.jpg",
+      "sizes":"1024x1024",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/apple-icon-180x180.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/ms-icon-150x150.png",
+      "sizes":"384x384",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/apple-icon-144x144.png",
+      "sizes":"256x256",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/apple-icon-120x120.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/apple-icon-114x114.png",
+      "sizes":"128x128",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/favicon-96x96.png",
+      "sizes":"96x96",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/android-icon-72x72.png",
+      "sizes":"64x64",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/apple-icon-57x57.png",
+      "sizes":"32x32",
+      "type":"image/png"
+    },
+    {
+      "src":"./img/favicon.ico",
+      "sizes":"16x16",
+      "type":"image/png"
+    }
+  ]
+}
