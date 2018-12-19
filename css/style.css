@@ -1,0 +1,80 @@
+body {
+  margin-top: 105px; 
+}
+canvas { width: 100%; height: 100% }
+.clearfix{
+  clear: both;
+  float: none;
+}
+.container{
+  width: 85%;
+  margin: 0px auto; //centrar un bloque dejo un porcentaje libre
+}
+.subheader{
+  font-size: 34px;
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  /*cambiamos el color rojo a un rgba con alfa claro
+  podemos usaar la pag hex  color tool y bajamos el alfa*/
+  border-bottom: 1px solid rgba(251, 49, 78, 0.3);
+}
+
+.service, .video{
+  width: 33%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:200px; 
+  height:200px;
+  /*al hacer esto el encabezado se sube para evitar
+  vamos a crear un div y le aplicamos el clearfix
+  que creamos, para esto creo un div antes de los videos
+  <div clas="claerfix"...></>
+  */
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  background: url("../img/tecISC.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+#authors .fab {
+  color: #fff; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
